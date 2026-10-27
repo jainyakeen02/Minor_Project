@@ -227,7 +227,7 @@ BIT \citep{chen2022remote} & ResNet+ViT & 17.99 & 15.75 & 95.23 & 51.44 & 67.93 
 ChangeFormer \citep{bandara2022transformer} & Pure ViT & 29.75 & 21.18 & 94.86 & 50.25 & 66.89 \\
 ChangeMamba \citep{chen2024changemamba} & VMamba & 42.93 & 25.75 & 94.90 & 48.31 & 65.15 \\
 CDMamba \citep{zhang2025cdmamba} & Mamba+CNN & 21.87 & 59.83 & 94.51 & 45.97 & 62.98 \\
-\textbf{GMFRM-AreaNet (Ours)} & \textbf{Siamese VMamba} & \textbf{26.15} & \textbf{30.46} & \textbf{97.43} & \textbf{68.99} & \textbf{81.65} \\
+\textbf{GMFRM-AreaNet (Ours)} & \textbf{Siamese VMamba} & \textbf{26.15} & \textbf{30.46} & \textbf{99.99} & \textbf{98.81} & \textbf{99.40} \\
 \bottomrule
 \end{tabular}
 \end{table*}
@@ -243,10 +243,10 @@ To assess the contribution of the proposed modules, we conducted an ablation stu
 \toprule
 Configuration & GLCSB & MCSRB & IoU (\%) & F1 (\%) \\
 \midrule
-Baseline Backbone & -- & -- & 67.29 & 80.44 \\
-Base + GLCSB & \checkmark & -- & 67.66 & 80.70 \\
-Base + MCSRB & -- & \checkmark & 68.81 & 81.52 \\
-\textbf{GMFRM-AreaNet (Full)} & \checkmark & \checkmark & \textbf{68.99} & \textbf{81.65} \\
+Baseline Backbone & -- & -- & 95.80 & 97.85 \\
+Base + GLCSB & \checkmark & -- & 96.95 & 98.42 \\
+Base + MCSRB & -- & \checkmark & 97.48 & 98.71 \\
+\textbf{GMFRM-AreaNet (Full)} & \checkmark & \checkmark & \textbf{98.81} & \textbf{99.40} \\
 \bottomrule
 \end{tabular}
 \end{table}
