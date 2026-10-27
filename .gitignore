@@ -1,0 +1,31 @@
+# Dataset archives and folders (Exceeds GitHub's 100MB limit)
+*.zip
+*.tar
+*.gz
+HRSCD/
+dataset_raw/
+dataset_patches/
+
+# PyTorch checkpoints and models
+*.pth
+*.pt
+*.onnx
+
+# Large raster/image formats
+*.tif
+*.tiff
+
+# Python & Jupyter cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.venv/
+env/
+venv/
+
+# IDE / OS specific
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
